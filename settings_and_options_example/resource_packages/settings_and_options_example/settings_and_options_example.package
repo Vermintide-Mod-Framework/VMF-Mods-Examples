@@ -1,0 +1,11 @@
+mod = [
+	"settings_and_options_example"
+]
+
+package = [
+	"resource_packages/settings_and_options_example/settings_and_options_example"
+]
+
+lua = [
+	"scripts/mods/settings_and_options_example/*"
+]
