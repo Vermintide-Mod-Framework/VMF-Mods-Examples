@@ -1,0 +1,8 @@
+.temp
+**/bundleV1
+**/bundleV2
+
+# Temporary:
+.vscode
+custom_menu_example
+custom_textures_example
