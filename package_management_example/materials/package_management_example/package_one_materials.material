@@ -1,0 +1,12 @@
+doge_one = {
+	material_contexts = {
+		surface_material = ""
+	}
+	shader = "gui:DIFFUSE_MAP"
+
+	textures = {
+		diffuse_map = "textures/package_management_example/doge_one"
+	}
+	variables = {
+	}
+}

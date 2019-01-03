@@ -1,0 +1,4 @@
+lua = [
+	"scripts/mods/package_management_example/package_management_example"
+	"scripts/mods/package_management_example/package_management_example_data"
+]
