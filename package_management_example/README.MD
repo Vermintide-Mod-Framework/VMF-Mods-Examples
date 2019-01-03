@@ -31,7 +31,7 @@ This mod has 3 resource packages:
   ```
   It contains 1 material file, which defines only 1 material inside of it: `doge_two`
 
-# What this mod do
+# What this mod does
 
 This mod defines 2 chat commands:
 * `load_package [package_number] [sync_loading]` - loads one of 2 packages
