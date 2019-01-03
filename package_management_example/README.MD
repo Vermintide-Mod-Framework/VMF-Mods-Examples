@@ -36,7 +36,7 @@ This mod has 3 resource packages:
 This mod defines 2 chat commands:
 * `load_package [package_number] [sync_loading]` - loads one of 2 packages
   * `package_number` \[number\] - number of loaded package (`1` for `package_one` and `2` for `package_two`)
-  * `sync_loading`? \[boolean\] - if `true`, loads package in not sync mode
+  * `sync_loading`? \[boolean\] - if `true`, loads package in sync mode
 
 * `unload_package [package_number]` - unloads one of 2 packages
 
