@@ -111,8 +111,7 @@ end
 function mod.on_unload()
   for _, package_name in ipairs(PACKAGES) do
     local package_status = mod:package_status(package_name)
-    -- If package is "queued" for loading or already "loaded".
-    if package_status and package_status ~= "loading" then
+    if package_status == "loaded" then
       destroy_gui(package_name)
       mod:unload_package(package_name)
     end
