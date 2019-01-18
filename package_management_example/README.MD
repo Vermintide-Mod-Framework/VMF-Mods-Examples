@@ -1,6 +1,6 @@
-Example of loading/unloading resource packages at will. This will work only for VT2 as additional resource packages are not supported in VT1.
+Example of loading/unloading resource packages at will. This mod created for VT2 specifically because additional resource packages are not supported in VT1.
 
-You can read about how it works in [VMF documentation](https://vmf-docs.verminti.de/#/packages).
+You can read about how VMF package manager works in [VMF documentation](https://vmf-docs.verminti.de/#/packages).
 
 # Mod's resource packages
 
@@ -21,7 +21,7 @@ This mod has 3 resource packages:
     "materials/package_management_example/package_one_materials"
   ]
   ```
-  It contains 1 material file, which defines only 1 material inside of it: `doge_one`
+  It contains 1 material file, which defines 1 material inside of it: `doge_one`
 
 * `package_two`
   ```json
@@ -29,7 +29,7 @@ This mod has 3 resource packages:
     "materials/package_management_example/package_two_materials"
   ]
   ```
-  It contains 1 material file, which defines only 1 material inside of it: `doge_two`
+  It contains 1 material file, which defines 1 material inside of it: `doge_two`
 
 # What this mod does
 
@@ -42,4 +42,4 @@ This mod defines 2 chat commands:
 
 When a package is loaded the material it contains will be drawn on the screen.
 
-To feel the difference between sync and async loading use `load_package` command on the first loading screen which appears after splash screen. It's the time when Bitsquid package manager is busy the most.
+To feel the difference between sync and async loading use `load_package` command on the first loading screen which appears after splash screen. It is the time when game's package manager is busy the most.
