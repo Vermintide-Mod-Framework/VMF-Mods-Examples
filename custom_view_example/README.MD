@@ -1,0 +1,1 @@
+Creates a simple view which can be toggled with a keybind. Everything is thoroughly described inside [`custom_view_example.lua`](./scripts/mods/custom_view_example/custom_view_example.lua).

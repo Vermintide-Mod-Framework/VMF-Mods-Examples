@@ -1,0 +1,11 @@
+mod = [
+  "custom_view_example"
+]
+
+package = [
+  "resource_packages/custom_view_example/custom_view_example"
+]
+
+lua = [
+  "scripts/mods/custom_view_example/*"
+]
